@@ -8,7 +8,7 @@ int main(void)
 	int num1,num2;
 	printf("enter the vaule of the numbers are");
 	scanf("%d%d",&num1,&num2);
-	printf(" prime numbers between %d  to %d\n",num1,num2);
+//	printf(" prime numbers between %d  to %d\n",num1,num2);
 	prime(num1,num2);
 	printf("%d",i);
 	return 0;
@@ -20,7 +20,7 @@ int prime(int n,int m)
 	if(primes(i))
 		printf("%d",i);
 			if(i%10==3)
-				printf("%d",i);
+//				printf("%d",i);
 
 
 		}
@@ -33,5 +33,5 @@ int primes(int n)
 				return i;
 		if(i>sqrt(n))
 	return i;
-	return 1;
+//	return 1;
 }
